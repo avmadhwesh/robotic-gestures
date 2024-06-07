@@ -26,6 +26,13 @@ p {
     text-indent: 30px; 
 }
 
+cap {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .paragraph-container p {
     opacity: 0;
     transform: translateY(50px);

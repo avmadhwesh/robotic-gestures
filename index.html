@@ -16,14 +16,16 @@
         <p>Under the guidance of Dr. Weinberg and Jocelyn Kavanagh at the Robotic Musicianship Lab, I studied these dynamics in depth. We analyzed over 40 bands and artists, focusing on visual and musical cues that facilitated the transfer of melody or motifs among musicians. Our goal was to implement these findings on Shimon, the marimba-playing robot. In particular, we focused on unstructured performances to observe how musicians organically responded to uniquely improvised music. Watch Shimon in action.</p>
         <p>Under the guidance of Dr. Weinberg and Jocelyn Kavanagh at the Robotic Musicianship Lab, I studied these dynamics in depth. We analyzed over 40 bands and artists, focusing on visual and musical cues that facilitated the transfer of melody or motifs among musicians. Our goal was to implement these findings on Shimon, the marimba-playing robot. In particular, we focused on unstructured performances to observe how musicians organically responded to uniquely improvised music. Watch Shimon in action.</p>
         <p>In our study, we identified a wide variety of gestures used by musicians. Some gestures were explicit, like pointing at each other, while others were implicit musical cues, such as decrescendos signaling the end of a climax and thus the end of a turn. Interestingly, we found that improvisation involved emotional responses that influenced these gestures. When a musician disliked the music—perhaps due to unexpected dissonance or rhythmic clashes—we observed grimaces or head shakes. Conversely, when a musician enjoyed the music, we saw enthusiastic nods and shouted ad-libs. These emotional responses appeared to play a role in how musicians decided to interrupt a turn or encourage its continuation.</p>
-        <p>From there, I identified three key physical behaviors exhibited by multiple artists in response to music: joy, disgust, and an idle "jam" state.</p>
+        <p>From there, I identified three key physical behaviors exhibited by multiple artists in response to music: joy, disgust, and an idle "jam" state. At the time of the project, Shimon had 5 degrees of freedom: full arm joint translation, neck joint vertical movement, head L/R rotation, head up/down movement, and mouth open/close. I designed these gestures along these parameters using MAX/MSP and C++ to integrate the gestures in MAX with Shimon's software. These gestures were tempo- and time-tracked to a sample of music upon which the gestures were demoed. </p>
+        <p>Shimon is intended to act as an improvisation partner. Therefore, these gestures are most applicable combined with Music Information Retrieval (MIR) algorithms, where </p>
         <div class="video-container" id="video1">
             <video src="media/approval.mov" controls></video>
-            <p>Approval</p>
+            <cap>Gesture 1: Approval</cap>
+            <cap>In this, Shimon's body turns to face the musician. It opens its mouth and nods on beat, swaying to indicate "approval" or "enthusiasm" for the music.</cap>
         </div>
         <div class="video-container" id="video2">
-            <video src="video2.mp4" controls></video>
-            <p>Caption for video 2</p>
+            <cap>Gesture 2: Disgust</cap>
+            <cap>In this, Shimon's turns to look at the musician, aghast. It closes its mouth and shakes its head. Then Shimon turns away from the musician in a theatrical show of disapproval. This gesture was to convey something of a "hmph!" exclamation. A limitation here was that because Shimon's eyebrow DoF was not functional at the time, it was harder to show the nuance of disgust that is normally apparent on a human musician. To compensate, a wide, sweeping motion was introduced to show visible disgust.</cap>
         </div>
         <div class="video-container" id="video3">
             <video src="video3.mp4" controls></video>
