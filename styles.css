@@ -16,7 +16,8 @@ body {
 h1 {
     font-size: 2em;
     margin-bottom: 50px;
-    background-image: url("media/Blue_gradient.svg")
+    background-image: url("media/Blue_gradient.svg");
+    color: #023047;
 }
 
 h2 {
