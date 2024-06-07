@@ -18,6 +18,12 @@ h1 {
     margin-bottom: 50px;
 }
 
+h2 {
+    font-size: 1.75em;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
 p {
     font-size: 1.2em;
     line-height: 1.5;
@@ -55,4 +61,10 @@ cap {
 .video-container.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+.video-container p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
 }
