@@ -20,10 +20,6 @@ h1 {
     color: #023047;
 }
 
-h2 {
-    font-size: 1.5em;
-}
-
 p {
     font-size: 1.2em;
     line-height: 1.5;
@@ -65,7 +61,6 @@ p {
 }
 
 .video-container video {
-    width: 100%;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
