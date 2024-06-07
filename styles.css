@@ -16,12 +16,11 @@ body {
 h1 {
     font-size: 2em;
     margin-bottom: 50px;
+    background-image: url("media/Blue_gradient.svg")
 }
 
 h2 {
-    font-size: 1.75em;
-    margin-top: 10px;
-    margin-bottom:10px;
+    font-size: 1.5em;
 }
 
 p {
