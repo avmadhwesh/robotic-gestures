@@ -32,13 +32,6 @@ p {
     text-indent: 30px; 
 }
 
-cap {
-    font-size: 1.2em;
-    line-height: 1.5;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
 .paragraph-container p {
     opacity: 0;
     transform: translateY(50px);
@@ -67,4 +60,12 @@ cap {
     text-align: center;
     margin-top: 10px;
     font-size: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
