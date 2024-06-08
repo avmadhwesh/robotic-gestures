@@ -30,6 +30,8 @@ p {
     font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
     text-align: left;
     text-indent: 30px; 
 }
@@ -62,8 +64,10 @@ p {
     text-align: center;
     margin-top: 10px;
     font-size: 1em;
-    margin-left: 10px;
-    margin-right: 10px;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .video-container video {
@@ -189,7 +193,7 @@ p {
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
-  background-color: #fff;
+  background-color: white;
 }
 
 .footer > * {
